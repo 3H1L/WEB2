@@ -1,0 +1,91 @@
+/*최초작성일_2020.11.25 수정_2020.12.25*/
+body{
+  margin:0;
+  background-color:white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#head {
+  display:block;
+  color:white;
+  text-align: left;
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 5px;
+  background-color: #2F84BC;
+  border-bottom: 1px solid #686F75;
+}
+h2 {
+  margin:0;
+  padding:5px;
+}
+#menu{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+  /* grid-template-columns: 200px auto 1fr; */
+}
+#menu ol{
+  margin: 0;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  background-color:#EBF7FF;
+  /* border-right: 1px solid #686F75; */
+  cursor: pointer;
+}
+#menu li{
+  padding-top: 15px;
+}
+#contents{
+  padding-left: 15px
+}
+#intro table{
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  width: 98%;
+  border: 1px;
+  border-style: solid;
+  border-color: #2F84BC;
+  border-collapse: collapse;
+  height: 10;
+}
+#intro table a{
+  color: red;
+}
+#cityList ul{
+  padding: 0;
+  padding-right: 200px;
+}
+#cityList ul li{
+  list-style-type: none;
+  float:left;
+  background-color: black;
+  margin: 8px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+footer{
+  margin:0;
+  padding:5px;
+  font-size:12px;
+  color: white;
+  text-align:right;
+  background-color: #2F84BC;
+}
+@media(max-width: 500px){
+  #menu{
+    display:Block;
+  }
+  #menu ol{
+    border-right: none;
+  }
+
+/* @media all and (max-width:767px) {
+  .pc_only{display:none;}
+  .mb_only{display:block;}
+  } */
+}
